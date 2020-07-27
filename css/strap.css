@@ -1,0 +1,93 @@
+
+.p-1{
+  padding: 5px;
+}
+
+.p-2{
+  padding: 10px;
+}
+
+.p-3{
+  padding: 15px;
+}
+
+.p-4{
+  padding: 20px;
+}
+
+.p-0{
+  padding: 0;
+}
+
+.h1{
+  font-size: 32px;
+}
+
+.h2{
+  font-size: 28px;
+}
+
+.h3{
+  font-size: 24px;
+}
+
+.h4{
+  font-size: 18px;
+}
+
+.h5{
+ font-size: 16px;
+}
+
+.mb-1{
+  margin-bottom: 10px;
+}
+
+.mb-5{
+  margin-bottom: 50px;
+}
+
+.mt-2{
+  margin-top: 20px;
+}
+
+.mt-5{
+  margin-top: 50px;
+}
+
+.m-main{
+  margin-top: 260px;
+}
+
+.pegar-nav{
+  position: fixed;
+  background-color: rgb(0,0,0);
+  margin-top: 0;
+  padding: 5px;
+  max-height: 200px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.title h2{
+  text-align: center;
+  font-size: 55px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.line{
+  width: 80%;
+  background-color: black;
+  height: 1px;
+}
+
+.btn{
+  text-decoration: none;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgba(0, 255, 0, 0.692);
+  border-radius: 4px;
+}

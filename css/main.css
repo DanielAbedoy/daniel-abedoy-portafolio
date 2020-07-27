@@ -1,0 +1,210 @@
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .image{
+  width:100%;
+  height: 99vh;
+  position: absolute;
+}
+
+header .image img{
+  width: 100%;
+  height: 100%;
+  opacity: .95;
+}
+
+header nav{
+  position: relative;
+  width: 100%;
+  margin-top: 45px;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+header nav ul{
+  width: 100%;
+  padding: 10px;
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+header ul li{
+  padding: 10px 35px;
+}
+
+header nav a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav a:hover{
+  font-size: 21px;
+}
+
+header .slogan{
+  position: relative;
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.884);
+  padding: 55px 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+header .slogan h1{
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.main{
+  width: 100%;
+  position: static;
+  margin-top: 160px;
+
+  display: flex;
+  
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.main .sobre-me{
+  width: 80%;
+}
+
+
+.sobre-me .sections{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-me .section-outside{
+  text-align: center;
+}
+.sobre-me .section-outside span{
+  font-size: 35px;
+}
+
+.sobre-me .content-image{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.sobre-me .image-me{
+  width: 50%;
+  background-image: url("../media/foto-sobre-me.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 20px;
+}
+
+
+.sections section{
+  width: 45%;
+  flex-grow: 1;
+  margin: 15px;
+}
+
+.sections span{
+  font-size: 35px;
+  text-align: center;
+}
+
+.conocimientos{
+  width: 90%;
+}
+
+.conocimientos .content{
+  width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.conocimientos .content section{
+  width: 29%;
+  border-radius: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+.conocimientos .content .image-title{
+  width: 20%;
+}
+
+.conocimientos .content section p{
+  font-style: italic;
+  font-size: 16px;
+  padding: 4px 0px;
+}
+
+.proyectos{
+  width: 80%;
+}
+
+.proyectos .row{
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proyectos .row .card{
+  width: 42%;
+  padding: 5px 10px;
+  margin: 20px;
+}
+
+.proyectos .row .img-card{
+  width: 100%;
+}
+
+.proyectos .row .img-card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.proyectos .row .cardTitle{
+  margin: 20px 0px;
+  background-color: rgba(203, 209, 203, 0.274);
+  border-radius: 5px;
+}
+
+.proyectos .row .card-description{
+
+  color: rgb(187, 184, 184);
+  font-size: 13px;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+
+
