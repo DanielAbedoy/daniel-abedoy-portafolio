@@ -284,8 +284,13 @@ header .slogan h1{
  }
 
 
-
-
-
+ footer{
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
 
 

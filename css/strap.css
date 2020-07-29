@@ -105,3 +105,8 @@
 .d-none{
   display: none;
 }
+
+.active-item{
+  background-color: white;;
+  color: black;
+}
