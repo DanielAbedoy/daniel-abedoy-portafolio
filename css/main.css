@@ -6,6 +6,10 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body{
+  background-color: #eeeeee;
+}
+
 header{
   width: 100%;
   display: flex;
@@ -69,6 +73,7 @@ header .slogan{
   text-align: center;
   color: white;
   border-radius: 10px;
+  box-shadow: -2px 0px 50px 15px rgba(0,0,0,0.75);
 }
 
 header .slogan h1{
@@ -101,6 +106,8 @@ header .slogan h1{
 
 .sobre-me .section-outside{
   text-align: center;
+  box-shadow: -2px 1px 39px 1px rgba(0,0,0,0.75);
+  padding: 10px 20px;
 }
 .sobre-me .section-outside span{
   font-size: 35px;
@@ -127,6 +134,9 @@ header .slogan h1{
   width: 45%;
   flex-grow: 1;
   margin: 15px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: -2px 1px 39px 1px rgba(0,0,0,0.75);
 }
 
 .sections span{
@@ -145,6 +155,7 @@ header .slogan h1{
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  margin-bottom: 40px;
 }
 
 .conocimientos .content section{
@@ -153,6 +164,7 @@ header .slogan h1{
   padding: 20px 10px;
   text-align: center;
   margin: 10px;
+  box-shadow: -2px 1px 39px 1px rgba(0,0,0,0.75);
 }
 
 .conocimientos .content .image-title{
@@ -169,6 +181,10 @@ header .slogan h1{
   width: 80%;
 }
 
+.main-title{
+  text-shadow: 1px 2px 7px ;
+}
+
 .proyectos .row{
   width: 100%;
   padding: 20px;
@@ -180,12 +196,20 @@ header .slogan h1{
 
 .proyectos .row .card{
   flex-basis: 44%;
-  padding: 5px 10px;
+  padding-bottom: 20px;
   margin: 20px;
+
+  border-radius: 5px;
+  box-shadow: -2px 1px 39px 1px rgba(0,0,0,0.75);
+  
 }
 
 .proyectos .row .img-card{
   width: 100%;
+}
+
+.proyectos .row .card p{
+  padding: 0px 20px;
 }
 
 .proyectos .row .img-card img{
@@ -251,7 +275,8 @@ header .slogan h1{
  }
 
  .show-fixed .content-btn button{
-   width: 200px;
+  width: 200px;
+  max-height: 120px;
   font-size: 20px;
   background-color: lime;
   border-radius: 30px;

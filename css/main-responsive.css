@@ -75,7 +75,7 @@
   
 header .slogan{
   position: static;
-  margin: 22% auto 0% auto;
+  margin: 22% auto 0px auto;
   background-color: rgba(0, 0, 0, 0.884);
   padding: 10px 10px;
   z-index: -1;
@@ -87,7 +87,7 @@ header .slogan h1{
 }
 
 .main{
-  margin-top: 34%;
+  
 }
 
 .sobre-me .image-me{
