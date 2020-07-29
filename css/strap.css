@@ -55,16 +55,24 @@
   margin-top: 50px;
 }
 
+.mb-4{
+  margin-bottom: 40px;
+}
+
+.mb-5{
+  margin-bottom: 50px;
+}
+
 .m-main{
   margin-top: 260px;
 }
 
 .pegar-nav{
   position: fixed;
-  background-color: rgb(0,0,0);
   margin-top: 0;
+  background-color: rgb(0,0,0);
   padding: 5px;
-  max-height: 200px;
+
 }
 
 .text-center{
@@ -90,4 +98,9 @@
   color: white;
   background-color: rgba(0, 255, 0, 0.692);
   border-radius: 4px;
+}
+
+
+.d-none{
+  display: none;
 }

@@ -25,6 +25,10 @@ header .image img{
   opacity: .95;
 }
 
+header .nav-toggle{
+   display: none;
+}
+
 header nav{
   position: relative;
   width: 100%;
@@ -65,7 +69,6 @@ header .slogan{
   text-align: center;
   color: white;
   border-radius: 10px;
-  
 }
 
 header .slogan h1{
@@ -137,7 +140,7 @@ header .slogan h1{
 
 .conocimientos .content{
   width: 100%;
-  
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -176,7 +179,7 @@ header .slogan h1{
 }
 
 .proyectos .row .card{
-  width: 42%;
+  flex-basis: 44%;
   padding: 5px 10px;
   margin: 20px;
 }
@@ -187,6 +190,7 @@ header .slogan h1{
 
 .proyectos .row .img-card img{
   width: 100%;
+  height: 190px;
   border-radius: 10px;
 }
 
@@ -198,12 +202,64 @@ header .slogan h1{
 
 .proyectos .row .card-description{
 
-  color: rgb(187, 184, 184);
+  color: rgb(124, 116, 116);
   font-size: 13px;
   padding: 5px;
   text-align: left;
   margin-bottom: 20px;
 }
+
+.proyectos .row .card-buttons{
+  width: 100%;
+  display: flex;
+}
+
+.proyectos .row .card-buttons a,
+.proyectos .row .card-buttons button
+{
+  margin: 0 5px;
+  flex: auto;
+}
+
+
+
+.proyectos .row .card .bt-play{
+  cursor: pointer;
+}
+
+
+.show-infixed{
+  display: none;
+}
+
+.show-fixed{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ .show-fixed .content-btn{
+  width: 100%;
+  display: flex;
+  padding: 10px 40px 40px 40px;
+  justify-content: center;
+ }
+
+ .show-fixed .content-btn button{
+   width: 200px;
+  font-size: 20px;
+  background-color: lime;
+  border-radius: 30px;
+  cursor: pointer;
+ }
+
+
+
 
 
 
