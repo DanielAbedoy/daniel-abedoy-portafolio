@@ -3,7 +3,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Zilla Slab', serif;
 }
 
 body{
@@ -66,14 +66,14 @@ header nav a:hover{
 }
 
 header .slogan{
+  width: 60%;
   position: relative;
-  margin-top: 200px;
-  background-color: rgba(0, 0, 0, 0.884);
-  padding: 55px 100px;
+  margin-top: 5%;
+  
   text-align: center;
   color: white;
-  border-radius: 10px;
-  box-shadow: -2px 0px 50px 15px rgba(0,0,0,0.75);
+  border-radius: 15px;
+  
 }
 
 header .slogan h1{
@@ -81,11 +81,16 @@ header .slogan h1{
   margin-bottom: 25px;
 }
 
+header .slogan img{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: -1px 2px 21px 17px rgba(0,0,0,0.75);
+}
+
 .main{
   width: 100%;
   position: static;
-  margin-top: 160px;
-
+  margin-top: 9%;
   display: flex;
   
   align-items: center;
@@ -291,6 +296,22 @@ header .slogan h1{
   color: white;
   text-align: center;
   padding: 20px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+footer .footer-logo{
+  width: 40%;
+  background-color: white;
+  margin-bottom:20px ;
+  border-radius: 5px;
+  box-shadow: -2px 1px 39px 1px rgba(255,255,255,0.65);
+}
+
+footer .footer-logo img{
+  width: 100%;
+}
 

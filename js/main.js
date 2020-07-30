@@ -66,7 +66,7 @@ scroling = () => {
   const nav = document.getElementById("nav-bar");
   const slogan = document.getElementById("slogan");
   const main = document.getElementById("main");
-  if (window.pageYOffset > slogan.offsetTop + 200) {
+  if (window.pageYOffset > slogan.offsetTop + 400) {
     
     nav.classList.add("pegar-nav");
     main.classList.add("m-main");

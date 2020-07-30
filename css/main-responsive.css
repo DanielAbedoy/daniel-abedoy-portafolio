@@ -1,9 +1,19 @@
 
 /* Medium */
-@media (max-width: 1000px){
+@media (max-width: 1300px){
 
   header nav a{
     font-size: 18px;
+  }
+  
+
+  .slogan{
+    padding-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .m-main{
+    margin-top: 20px;
   }
 
   .main .sobre-me{
@@ -17,11 +27,13 @@
   .proyectos{
     width: 95%;
   }
+
+
 }
 
 
 
-@media (max-width: 560px){
+@media (max-width: 760px){
 
   header .image{
     z-index: -2;
@@ -87,7 +99,7 @@ header .slogan h1{
 }
 
 .main{
-  
+  margin-top: 60px;
 }
 
 .sobre-me .image-me{
@@ -153,5 +165,16 @@ header .slogan h1{
     font-size: .9em;
   }
 
+  footer .footer-logo{
+    width: 40%;
+    background-color: white;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    box-shadow: -2px 1px 39px 1px rgba(255,255,255,0.65);
+  }
+
+  .footer-logo img{
+    width: 100%;
+  }
 
 }
