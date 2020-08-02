@@ -17,7 +17,7 @@ scroling = () => {
   const conocimientos_a = document.getElementById("a-conocimientos");
   const proyectos_a = document.getElementById("a-proyectos");
 
-  if (window.pageYOffset > proyectos_.offsetTop ) {
+  if (window.pageYOffset > proyectos_.offsetTop -150) {
     proyectos.classList.add("active-item");
     inicio.classList.remove("active-item");
     conocimientos.classList.remove("active-item");
@@ -28,7 +28,7 @@ scroling = () => {
     conocimientos_a.classList.remove("active-item");
     sobre_me_a.classList.remove("active-item");
 
-  } else if (window.pageYOffset > conocimientos_.offsetTop ) {
+  } else if (window.pageYOffset > conocimientos_.offsetTop -150 ) {
     proyectos.classList.remove("active-item");
     inicio.classList.remove("active-item");
     conocimientos.classList.add("active-item");
@@ -39,7 +39,7 @@ scroling = () => {
     conocimientos_a.classList.add("active-item");
     sobre_me_a.classList.remove("active-item");
 
-  } else if (window.pageYOffset > sobre_me_.offsetTop) {
+  } else if (window.pageYOffset > sobre_me_.offsetTop -170) {
     proyectos.classList.remove("active-item");
     inicio.classList.remove("active-item");
     conocimientos.classList.remove("active-item");
