@@ -135,7 +135,8 @@ header .slogan img{
 
 .sobre-me .image-me{
   width: 50%;
-  background-image: url("../media/foto-sobre-me.jpg");
+  background-image: url("../media/perfil.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   margin-top: 20px;
@@ -143,10 +144,11 @@ header .slogan img{
 
 
 .sections section{
-  width: 45%;
+  width: calc(50% - 30px );
   background-color: white;
   flex-grow: 1;
-  margin: 15px;
+  margin-top: 15px ;
+  margin-bottom: 15px ;
   border-radius: 5px;
   padding: 10px 20px;
   box-shadow: -2px 1px 39px 1px rgba(0,0,0,0.75);
@@ -314,7 +316,7 @@ header .slogan img{
 
 
  .contactame {
-   width: 80%;
+   width: 77%;
    text-align: center;
    margin-bottom: 100px;
  }
@@ -381,4 +383,5 @@ footer .footer-logo{
 footer .footer-logo img{
   width: 100%;
 }
+
 

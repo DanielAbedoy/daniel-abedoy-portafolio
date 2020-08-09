@@ -1,6 +1,116 @@
+@media screen and (min-width: 1000px) and (min-height: 1366px) { 
 
 
-@media (max-width: 760px){
+  
+  header .image{
+    height: 40vh;
+  }
+
+
+
+}
+
+/* PC de 1000 a 821 */
+@media only screen and (max-width: 1000px) and (min-width: 821px) {  
+
+
+  header nav a{
+    font-size: 18px;
+  } 
+
+  .slogan{
+    padding-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .m-main{
+    margin-top: 20px;
+  }
+
+  .main .sobre-me{
+    width: 100%;
+  }
+
+  .conocimientos{
+    width: 100%;
+  }
+
+  
+  .conocimientos .content section{
+    width: 47%;
+  }
+
+
+  .proyectos{
+    width: 95%;
+  }
+
+  .contactame {
+    width: 96%;
+  }
+}
+
+
+
+@media only screen and (max-width: 820px) and (min-width: 621px) {  
+
+  header .image{
+    height: 40vh;
+  }
+
+  header nav a{
+    font-size: 12px;
+  }
+
+  header nav a:hover{
+    font-size: 13px;
+  }
+
+  .m-main{
+    margin-top: 20px;
+  }
+
+  .main .sobre-me{
+    width: 100%;
+  }
+
+  .main .sobre-me section{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .conocimientos{
+    width: 100%;
+  }
+
+  .conocimientos .content section{
+    width: 46%;
+  }
+
+  .proyectos{
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .proyectos .row{
+    padding: 0;
+  }
+
+
+  .proyectos .row .card{
+    flex-basis:46%;
+    margin: 20px 10px;
+  }
+
+
+  .contactame {
+    width: 95%;
+  }
+  
+} 
+
+@media only screen and (max-width: 620px) and (min-width: 5px) {  
+
 
   header .image{
     z-index: -2;
@@ -89,6 +199,10 @@ header .slogan h1{
     width: 100%;
   }
 
+  .conocimientos .content section{
+    width: 90%;
+  }
+
   .conocimientos > .title h2,
   .sobre-me > .title h2,
   .proyectos > .title h2,
@@ -99,7 +213,7 @@ header .slogan h1{
 
   .proyectos{
     width: 95%;
-    margin-bottom: 20%;
+    margin-bottom: 4%;
   }
 
   .proyectos .row{
@@ -151,91 +265,4 @@ header .slogan h1{
     width: 100%;
   }
 
-
-
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-
-  body{
-    background-color: green;
-  }
-  header .image{
-    height: 55vh;
-  }
-
-  header nav a{
-    font-size: 12px;
-  }
-
-  header nav a:hover{
-    font-size: 13px;
-  }
-
-  .m-main{
-    margin-top: 20px;
-  }
-
-  .main .sobre-me{
-    width: 100%;
-  }
-
-  .main .sobre-me section{
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .conocimientos{
-    width: 100%;
-  }
-
-  .conocimientos .content section{
-    width: 46%;
-  }
-
-  .proyectos{
-    width: 100%;
-    margin-bottom: 20%;
-  }
-
-  .proyectos .row{
-    padding: 0;
-  }
-
-
-  .proyectos .row .card{
-    flex-basis:46%;
-    margin: 20px 10px;
-  }
-
-
-  .contactame {
-    width: 95%;
-  }
-  
-
 } 
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  body{
-    background-color: hotpink;
-  }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 1000px) {
-  
-} 
-
-

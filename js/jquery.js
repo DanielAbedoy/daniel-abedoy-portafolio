@@ -62,7 +62,7 @@ $(() => {
     }
   });
 
-  const mividia = '! Hola ¡ Soy José Daniel Abedoy Silva,nací el 7de Septiembre de 1999 en la Ciudad de México. <br /> \
+  const mividia = '! Hola ¡ Soy José Daniel Abedoy Silva, nací el 7 de Septiembre de 1999 en la Ciudad de México. <br /> \
    <br /> \
   Desde muy pequeño me vi interesado por crear cosas, diseñarlas y experimentar con ellas, todo esto empezó con la papiroflexia, me llamaba la atención crear cosas para después jugar con ellas. Primero las imaginaba, después encontraba materiales con los cuales construir mis ideas, luego el paso final, desarrollarlas .<br />\
   <br />\
