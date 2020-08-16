@@ -15,12 +15,10 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 header .image{
   width:100%;
-  height: 99vh;
   position: absolute;
 }
 
@@ -90,10 +88,10 @@ header .slogan img{
 
 .main{
   width: 100%;
-  position: static;
-  margin-top: 9%;
+  background-color: #eeeeee;
+  position: relative;
+  margin-top: 10px;
   display: flex;
-  
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
@@ -144,7 +142,7 @@ header .slogan img{
 
 
 .sections section{
-  width: calc(50% - 30px );
+  width: 100%;
   background-color: white;
   flex-grow: 1;
   margin-top: 15px ;

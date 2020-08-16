@@ -62,7 +62,7 @@ scroling = () => {
     conocimientos_a.classList.add("active-item");
     sobre_me_a.classList.remove("active-item");
 
-  } else if (window.pageYOffset > sobre_me_.offsetTop -170) {
+  } else if (window.pageYOffset > sobre_me_.offsetTop + 100) {
     proyectos.classList.remove("active-item");
     inicio.classList.remove("active-item");
     conocimientos.classList.remove("active-item");
@@ -76,7 +76,7 @@ scroling = () => {
     conocimientos_a.classList.remove("active-item");
     sobre_me_a.classList.add("active-item");
 
-  } else if (window.pageYOffset > inicio_.offsetTop - 100) {
+  } else if (window.pageYOffset > inicio_.offsetTop - 200) {
     proyectos.classList.remove("active-item");
     inicio.classList.add("active-item");
     conocimientos.classList.remove("active-item");
@@ -95,13 +95,10 @@ scroling = () => {
   const nav = document.getElementById("nav-bar");
   const slogan = document.getElementById("slogan");
   const main = document.getElementById("main");
-  if (window.pageYOffset > slogan.offsetTop + 400) {
-    
+  if (window.pageYOffset > slogan.offsetTop + 110) {
     nav.classList.add("pegar-nav");
-    main.classList.add("m-main");
   } else {
     nav.classList.remove("pegar-nav");
-    main.classList.remove("m-main");
   }
 }
 

@@ -92,6 +92,15 @@ Ya en la Universidad comencé construir mi carrera, fue aquí donde empecé con 
 Y llegar a este punto de mi vida no fue nada fácil, y yo sé que muy pocos podrán decir que fue fácil, pero yo siempre he dicho... "Si fuera fácil, todos lo serian"';
 
   $("#p-mis-estudios").append(mis_estudios);
+
+
+  const mas_de_mi = 'Mi vida no solo gira alrededor de la programación y de estudiar, también me gusta hacer otras muchísimas cosas y les contare un poco sobre ellas. \
+  Desde chiquito yo me eh dedicado al deporte, primero fui futbolista, lo cual no se me dio, luego estuve dos años entrenando natación, después de eso encontré el beisbol del cual me enamore muchísimo, lamentablemente no lo seguí entrenado por muchas cuestiones, y fui ahí cunado encontré el mundo de las pesas y el culturismo, eso hoy en día es mi pasión por completo.\
+  Pero hay muchas cosas más me gusta tocar la guitarra, cantar, bailar, conocer nuevos lugares a los que no he estado.\
+  También me gusta crear y diseñar cosas relacionadas con la robótica.\
+  Y en mi cabeza hay muchas cosas más las cuales adoro hacer pero por el momento lo dejare hasta ahí.';
+
+  $("#p-mas-de-mi").append(mas_de_mi);
   
 
 })

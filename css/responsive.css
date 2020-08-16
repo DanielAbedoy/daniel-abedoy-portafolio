@@ -6,8 +6,6 @@
     height: 40vh;
   }
 
-
-
 }
 
 /* PC de 1000 a 821 */
@@ -17,15 +15,6 @@
   header nav a{
     font-size: 18px;
   } 
-
-  .slogan{
-    padding-top: 10%;
-    margin-bottom: 10%;
-  }
-
-  .m-main{
-    margin-top: 20px;
-  }
 
   .main .sobre-me{
     width: 100%;
@@ -64,10 +53,6 @@
 
   header nav a:hover{
     font-size: 13px;
-  }
-
-  .m-main{
-    margin-top: 20px;
   }
 
   .main .sobre-me{
@@ -120,11 +105,6 @@
     width: 83%;
   }
 
-  header .image img{
-    width: 100%;
-    height: 45%;
-    opacity: .95;
-  }
 
   header nav{
     display: none;    
@@ -138,6 +118,7 @@
     width: 100%;
     background-color: black;
     position: fixed;
+    z-index: 1000;
   }
 
   .ul-open{
@@ -166,7 +147,7 @@
   
 header .slogan{
   position: static;
-  margin: 22% auto 0px auto;
+  margin: 11% auto 0px auto;
   background-color: rgba(0, 0, 0, 0.884);
   padding: 10px 10px;
   z-index: -1;
@@ -175,10 +156,6 @@ header .slogan{
 header .slogan h1{
   font-size: 1.5em;
   margin-bottom: 20px;
-}
-
-.main{
-  margin-top: 60px;
 }
 
 .sobre-me .image-me{
@@ -223,10 +200,6 @@ header .slogan h1{
 
   .proyectos .row .card{
     flex-basis:100%;
-  }
-
-  .proyectos .row .img-card img{
-    height: 140px;
   }
 
   .proyectos #play_vivorita{
